@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: blanchedalmond;
+    background-color: white;
     margin: 0px;padding: 0px;
   }
   
@@ -11,7 +11,7 @@ body{
       margin: auto;
       margin-top: 50px;
       padding: 20px;
-      background-color: darkgray;
+      background-color: green;
       width: 70%;
       border-radius: 10px;
       display: flex;
@@ -22,7 +22,7 @@ body{
     .quiz ul li {
       display: flex;
       align-items: center;
-      border: 1px solid #694F8E ;
+      border: 1px solid limegreen ;
       border-radius: 5px;
       padding: 10px;
       margin-bottom: 10px;
@@ -32,7 +32,7 @@ body{
     }
     
     .quiz ul li.selected {
-      background-color: #694F8E;
+      background-color: limegreen;
       color: white;
     }
     
@@ -47,6 +47,6 @@ body{
     
     .quiz button:hover {
       background-color: aliceblue;
-      border: 1px solid black;
+      border: 1px solid purple;
       cursor: pointer;
     }
